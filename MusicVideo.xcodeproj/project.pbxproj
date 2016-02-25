@@ -97,12 +97,10 @@
 		C33486281C7EE2AB00446E43 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				C33486291C7EE2AB00446E43 /* AppDelegate.swift */,
-				C334862B1C7EE2AB00446E43 /* ViewController.swift */,
-				C334862D1C7EE2AB00446E43 /* Main.storyboard */,
-				C33486301C7EE2AB00446E43 /* Assets.xcassets */,
-				C33486321C7EE2AB00446E43 /* LaunchScreen.storyboard */,
-				C33486351C7EE2AB00446E43 /* Info.plist */,
+				C334865B1C7EE67200446E43 /* Supporting Files */,
+				C33486571C7EE58500446E43 /* Model */,
+				C334865A1C7EE5C800446E43 /* Controller */,
+				C33486591C7EE5A400446E43 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				C334864B1C7EE2AB00446E43 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		C33486571C7EE58500446E43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C33486591C7EE5A400446E43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C334862D1C7EE2AB00446E43 /* Main.storyboard */,
+				C33486321C7EE2AB00446E43 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C334865A1C7EE5C800446E43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C334862B1C7EE2AB00446E43 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C334865B1C7EE67200446E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33486301C7EE2AB00446E43 /* Assets.xcassets */,
+				C33486351C7EE2AB00446E43 /* Info.plist */,
+				C33486291C7EE2AB00446E43 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
